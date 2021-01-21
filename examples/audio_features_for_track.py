@@ -9,8 +9,8 @@ import spotipy
 import time
 import os
 
-os.environ['SPOTIPY_CLIENT_ID'] = '5a9702c739a346de80cb333b6cb65e49'
-os.environ['SPOTIPY_CLIENT_SECRET'] = '71c46401434c4a2bbc7d7ae1f03b7797'
+os.environ['SPOTIPY_CLIENT_ID'] = 'ID_HERE' # add Spotify CLIENT ID here
+os.environ['SPOTIPY_CLIENT_SECRET'] = 'SECRET_HERE' # add Spotify CLIENT SECRET here
 
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
