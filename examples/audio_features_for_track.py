@@ -8,7 +8,10 @@ import json
 import spotipy
 import time
 import sys
+import os
 
+os.environ['SPOTIPY_CLIENT_ID'] = '5a9702c739a346de80cb333b6cb65e49'
+os.environ['SPOTIPY_CLIENT_SECRET'] = '71c46401434c4a2bbc7d7ae1f03b7797'
 
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
